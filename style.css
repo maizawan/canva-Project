@@ -1,0 +1,1092 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+
+}
+
+body {
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  background-image: url(../images/bg55.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: italic;
+}
+
+/* ----------NAVBAR --------------- */
+.nav1 {
+  display: flex;
+  justify-content: center;
+  /* background-color: #054e0b; */
+  background-image: url(..//images/footer.jpg);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  height: 45px;
+  align-items: center;
+  padding-left: 100px;
+  font-style: italic;
+}
+
+
+
+.nav1 a {
+  color: rgb(115, 231, 160);
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navbar {
+  color: #000;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar img {
+  height: 60px;
+}
+
+.navbar a {
+  color: #000;
+}
+
+.navbar li {
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+.dropdown-menu {
+  color: white;
+  background-color: rgba(240, 240, 240, 0.811);
+  margin-left: 0;
+  padding: 10px 10px;
+}
+.dropdown-menu li{
+ 
+  padding-left: 0;
+}
+.dropdown-item {
+  width: 100%;
+padding: 10px 10px;
+  text-align: center;
+  color: white;
+}
+
+.dropdown-item:hover {
+  color: aliceblue;
+  background-color: rgba(50, 73, 50, 0.78);
+}
+
+@media (max-width: 768px) {
+  .nav1 {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  .nav1 a {
+    font-size: 18px;
+    padding-left: 5px;
+  }
+
+  .navbar img {
+    height: 50px;
+  }
+
+  .navbar li {
+    font-weight: 700;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav1 {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+
+  .nav1 a {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+
+  .navbar img {
+    height: 40px;
+  }
+
+  .navbar li {
+    font-weight: 700;
+    padding-left: 10px;
+  }
+
+  .leaves {
+    width: 70%;
+  }
+}
+
+/* ----------------NAVBAR END ------------- */
+/*------------- COVER START --------- */
+.cover {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading {
+  padding: 20px;
+  position: absolute;
+  width: 70%;
+  max-width: 800px;
+  font-size: 2.5em;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  text-shadow: 5px 10px rgba(0, 0, 0, 0.651);
+  background-color: rgba(128, 189, 128, 0.212);
+}
+
+@media (min-width:375px) {
+  .main-heading {
+    font-size: 1.5em;
+  }
+
+  .doosra-patta {
+    width: 10%;
+    position: absolute;
+
+    right: 0;
+    bottom: 000%;
+    /* bottom:00%; */
+
+  }
+
+  .lead {
+
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 3.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-heading {
+    font-size: 4.5em;
+  }
+
+  .order-md-2 ol {
+    line-height: 1.6;
+  }
+
+  .order-md-2 li {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .lead {
+    line-height: 1.7;
+  }
+}
+
+/*--------------- COVER END ---------- */
+/*==========ABOUT SECTION ========== */
+.bg {
+  padding: 0;
+  position: relative;
+  background-attachment: fixed;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cutter {
+  position: relative;
+  background-color: rgb(27, 29, 29);
+  top: 250px;
+  
+}
+
+.about {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 3.5em;
+  font-weight: 800;
+  color: rgb(252, 250, 250);
+  width: 40%;
+  text-shadow: 5px 10px rgba(10, 10, 10, 0.705);
+  margin: 140px 50px;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    font-size: 3em;
+    margin: 150px 40px;
+    width: 50%;
+  }
+  .bg {
+    padding: 0;
+    position: relative;
+    background-attachment: fixed;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .cutter{
+   
+      position: relative;
+      background-color: rgb(27, 29, 29);
+      top: 180px;
+}
+}
+
+@media (max-width: 992px) {
+  .about {
+    font-size: 2.5em;
+    margin: 120px 30px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    font-size: 2em;
+    margin: 100px 20px;
+    width: 70%;
+  }
+
+  .page {
+    top: 40px;
+  }
+  .bg {
+    padding: 0;
+    position: relative;
+    background-attachment: fixed;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .cutter{
+   
+      position: relative;
+      background-color: rgb(27, 29, 29);
+      top: 130px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .page {
+    top: 40px;
+  }
+  .bg {
+    padding: 0;
+    position: relative;
+    background-attachment: fixed;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .cutter{
+   
+      position: relative;
+      background-color: rgb(27, 29, 29);
+      top: 160px;
+}
+}
+
+@media (max-width: 576px) {
+  .about {
+    font-size: 1.5em;
+    margin: 80px 10px;
+    width: 80%;
+  }
+
+  .c {
+    font-size: large;
+    margin: 1px 3px;
+  }
+
+  .page {
+    top: 50px;
+  }
+  .bg {
+    padding: 0;
+    position: relative;
+    background-attachment: fixed;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .cutter{
+   
+      position: relative;
+      background-color: rgb(27, 29, 29);
+      top: 130px;
+}
+}
+
+/*======== ABOUT END ============= */
+/*-------- PROTECTED-AREAS & WILDLIFE START ----------- */
+.protected-areas {
+  width: 100%;
+  padding: 10px;
+  /* background-color: rgba(37, 99, 37, 0.781); */
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.protected-areas h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.protected-areas img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  background: transparent;
+}
+
+.slider .card {
+  flex: 1;
+  margin: 0 10px;
+  height: 100%;
+  background-color: rgba(8, 8, 8, 0.384);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+.slider .card .img {
+  height: 200px;
+  width: 100%;
+  margin: 15PX 16px;
+  width: calc(100% - 32px);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.slider .card .img:hover {
+  filter: brightness(75%);
+}
+
+.slider .card .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+}
+
+.slider .card .img img:hover {
+  transform: scale(1.1);
+  /* Scale up by 10% on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.slider .card .content {
+  padding: 10px 0px;
+}
+
+.card .content .title {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card .content p {
+  color: white;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 5PX 16px;
+  /* Adjust the line height as needed */
+  max-height: 6em;
+  /* 4 lines multiplied by the line height (adjust as needed) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.card .content button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+  right: 24px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition: bottom 0.2s ease-out, opacity 0.2s ease-out;
+}
+
+.card:hover button {
+  bottom: 15px;
+  opacity: 1;
+}
+
+.wild-life {
+  border-top: 1px solid white;
+  background-image: url(../images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wild-life h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.wild-life .col-md-6 {
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider .card {
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.384);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid white;
+  }
+
+  .card .content .title {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    /* color: var(--text); */
+  }
+
+  .slider .card {
+    width: 90%;
+  }
+
+  .slider .card P {
+    font-size: 12px;
+  }
+
+  .slider .card .img {
+    height: 150px;
+    width: 100%;
+    /* margin: 0PX 16px; */
+    width: calc(100% - 32px);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    overflow: hidden;
+  }
+}
+
+/*-------- PROTECTED-AREAS & WILDLIFE  END ----------- */
+/*--------- SLIDER CAROUSEL START ----- */
+.where {
+  font-weight: 800;
+  color: #054e0b;
+}
+
+.carousel {
+  margin-left: 9%;
+  margin-bottom: 2%;
+  height: 66vh;
+  width: 83%;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  border: 4px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+/* slider       */
+.slide {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+  inset: 0;
+
+  animation: slide-show 25s infinite;
+}
+
+.slide-2 {
+  animation-delay: 4s;
+}
+
+.slide-3 {
+  animation-delay: 8s;
+}
+
+.slide-4 {
+  animation-delay: 12s;
+}
+
+.slide-5 {
+  animation-delay: 16s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@keyframes slide-show {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  20%,
+  30% {
+    opacity: 1;
+    scale: 1.03;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+/*--------- SLIDER CAROUSEL END ----- */
+
+
+/*=========== GALLERY START ======= */
+.animal-imgs {
+  width: 100%;
+  height: 294.88px;
+  filter: grayscale(70%);
+  transition: filter 0.3s ease;
+  object-fit: cover;
+}
+
+.animal-imgs:hover {
+  filter: grayscale(0%);
+}
+
+.gallery h2 {
+  position: absolute;
+  width: 100%;
+  bottom: 20%;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+@media (max-width: 768px) {
+  .gallery h2 {
+    font-size: 1.5rem;
+    top: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery h2 {
+    font-size: 1.9rem;
+  }
+}
+
+/*=========== GALLERY END ======= */
+/*------ FOOTER START-------------  */
+footer {
+  background-image: url(..//images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(252, 251, 251);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  margin: 20px 0px 10px 80px;
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.391);
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: rgba(59, 93, 59, 0.673);
+  color: #fff;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.721);
+}
+
+/*------ FOOTER END-------------  */
+/*=========== FEEDBACK FORM ========= */
+.star-rating {
+  font-size: 0;
+  transform: rotateY(180deg);
+  float: left;
+  position: relative;
+}
+
+.star-rating input {
+  display: none;
+  /* Hide the default radio input */
+}
+
+.star-rating label {
+  display: inline-block;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #161515a4;
+}
+
+.star-rating input:checked+label,
+.star-rating input:checked~label {
+  color: #ffc107;
+  /* Change color for checked (selected) stars */
+}
+
+.feedback input {
+  width: 80%;
+}
+
+.feedback textarea {
+  width: 90%;
+}
+
+/*=========== FEEDBACK FORM ========= */
+/* ========== PARKS START ============ */
+.parks {
+  font-weight: 800;
+  font-size: 3em;
+}
+
+.parkstext {
+  line-height: 200%;
+  font-size: 1.2em;
+
+}
+
+.wparks {
+  font-weight: 700;
+  font-size: 1.9em;
+}
+
+/* ========== PARKS END ============ */
+/*=========== WILDLIFE START ======= */
+.mammals {
+  background-image: url(../images/mammals.jpg);
+  height: 400px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mammals-text {
+  color: #fff;
+  font-weight: 800;
+  font-size: 5em;
+  padding: 150px 100px;
+  text-shadow: 20px 20px 5px rgba(255, 228, 196, 0.285);
+}
+
+.mlist li {
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 2.2;
+}
+
+.mlist span {
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.list {
+  font-weight: 800;
+  font-size: 2.3em;
+}
+
+.mammal h1 {
+  font-weight: 900;
+}
+
+.mammal a {
+  color: rgb(20, 201, 20);
+}
+
+.mammal h3 {
+  font-weight: 700;
+}
+
+.mammal p {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.mammal .col-md-5 {
+  height: 50%;
+
+  border: 1px solid rgba(110, 103, 103, 0.41);
+}
+
+.mammal img {
+  width: 100%;
+  height: 50%;
+}
+@media (max-width: 576px) {
+  .mammals-text{
+    font-size: 2.5em;
+    padding: 120px 0px;
+  }
+  
+  .list {
+    font-size: 25px;
+  }
+  .mlist li {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 2.2;
+  }
+}
+/*=========== WILDLIFE END ============= */
+/*======== CONTACT FORM START ======= */
+.c {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 3.5em;
+  font-weight: 800;
+  color: rgb(252, 250, 250);
+  width: 40%;
+  text-shadow: 5px 10px rgba(10, 10, 10, 0.705);
+  margin: 120px 120px;
+
+}
+
+.contact {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: rgb(252, 250, 250);
+  width: 80%;
+  /* text-shadow: 5px 10px rgba(10, 10, 10, 0.705); */
+  margin: 16% 100px;
+}
+
+.call-icon {
+  display: flex;
+  margin: 5%;
+  background-color: rgb(211, 226, 240);
+}
+
+.call-icon img {
+  height: 50px;
+  margin-right: 3%;
+}
+
+.call-icon h4 {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-right: 1%;
+}
+
+.call-icon p {
+  margin: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  /* padding: 20px; */
+
+}
+
+#accordion h1 {
+  font-weight: 700;
+  color: #0c2c0f;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 1em;
+}
+
+.btn:hover {
+  background-color: #49ea17;
+  color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .c {
+    font-size: 3em;
+    margin: 80px 80px;
+    width: 50%;
+  }
+
+  .contact {
+    font-size: 1.3em;
+    margin: 150px 80px;
+    width: 70%;
+  }
+
+  .page {
+    top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .c {
+    font-size: 2.5em;
+    margin: 50px 50px;
+    width: 60%;
+  }
+
+  .contact {
+    font-size: 18px;
+    margin: 100px 50px;
+    width: 85%;
+  }
+
+  .page {
+    top: 40px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .c {
+    font-size: 2em;
+    margin: 30px 40px;
+    width: 70%;
+  }
+
+  .contact {
+    font-size: 15px;
+    margin: 80px 40px;
+    width: 80%;
+  }
+
+  .page {
+    top: 50px;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 575px) {
+  .c {
+    font-size: 2em;
+    margin: 20px 20px;
+    width: 80%;
+  }
+
+  .contact {
+    font-size: 15px;
+    margin: 70px 20px;
+    width: 90%;
+    line-height: 1.3;
+  }
+
+  .page {
+    top: 70px;
+  }
+}
+
+/*-------------Accordian-----------------*/
+.accordion {
+
+  max-width: 70vw;
+  margin: 0 auto;
+
+}
+
+.accordion-item {
+  border-top: 1px solid #151515;
+  color: #054e0b;
+}
+
+.accordion-item h2 {
+  padding: 1em;
+  font-size: 25px;
+  background-color: rgba(51, 147, 61, 0.512);
+  margin: 0;
+  cursor: pointer;
+}
+
+.accordion-content {
+  background-color: rgba(51, 147, 61, 0.512);
+  max-height: 0;
+  /* Set a default max-height, but don't display it */
+  overflow: hidden;
+  /* Hide the content */
+  transition: max-height 0.4s ease-out;
+  /* Add a transition effect when sliding down (and up) the content */
+  padding: 0 1em;
+}
+
+.accordion-content p {
+  padding: 1em 0;
+  margin: 0;
+  color: #133423;
+}
+
+/* Add this class to .accordion-content when the accordion item is active/open */
+.accordion-content.active {
+  max-height: auto;
+  /* Adjust as needed */
+}
+
+/*adding the + and - signs*/
+.accordion-item h2 {
+  position: relative;
+  padding-right: 30px;
+  /* Adjust as needed */
+}
+
+.accordion-item h2::before {
+  content: "+";
+  position: absolute;
+  right: 10px;
+  /* Adjust as needed */
+}
+
+.accordion-item.active h2::before {
+  content: "-";
+}
+
+/*======== CONTACT FORM END ======= */
+/* --------CARDS START -------- */
+
+
+.cards .col-md-3 {
+  justify-content: space-around;
+  height: 400px;
+  width: 360px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-size: cover;
+  /* background-position: center; */
+  margin-top: 30px;
+  margin-left: 4%;
+  border: none;
+
+}
+
+.cards {
+  background: transparent;
+  padding: 10px;
+}
+
+.cards .row {
+  background: transparent;
+  /* margin: 10px; */
+  /* background-color: rgba(232, 238, 243, 0.58); */
+}
+
+.cards .col-md-3 p {
+  color: #ffc107c9;
+  height: 400px;
+  padding: 50px;
+  font-size: 2em;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.735);
+}
+
+.cards .col-md-3 span {
+  display: block;
+  color: #f8f7f3b4;
+  font-size: 0.8em;
+}
+
+.cards .col-md-3.card2 {
+  margin-top: 8%;
+}
+
+.cards .col-md-3.card3 {
+  margin-top: 15%;
+}
+
+.doosra-patta {
+  position: absolute;
+
+  right: 0;
+  top: 670%;
+
+  width: 12%;
+}
+
+/* Responsive Design */
+
+
+@media (max-width: 576px) {
+
+  .col-md-3 {
+    height: 350px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .card {
+    min-height: 150px;
+    padding: 15px;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .cards span {
+    font-size: 0.8rem;
+  }
+
+  .doosra-patta {
+    position: absolute;
+
+    right: 0;
+    top: 730%;
+    width: 12%;
+  }
+}
+
+/* --------CARDS END -------- */

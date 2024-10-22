@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="icon" href="images/logo.jpeg">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+  <!-- Navbar Start  -->
+    <!-- Nav1 -->
+    <div class="container-fluid nav1">
+        "Adopt the pace of nature: her secret is patience."
+    </div>
+
+    <!-- nav2 -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-removebg-preview.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Parks
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="Hingol National Park.html">Hingol National Park</a></li>
+                            <li><a class="dropdown-item" href="khirthar national park.html">Khirthar National Park</a></li>
+                            <li><a class="dropdown-item" href="Ayubia National Park.html">Ayubia National Park</a></li>
+                            <li><a class="dropdown-item" href="Deosai National Park.html">Deosai National Park</a></li>
+                            <li><a class="dropdown-item" href="Chitral gol National Park.html">Chitral Gol National Park</a></li>
+                            <li><a class="dropdown-item" href="Chinji National Park.html">Chinji National Park</a></li>
+                            <li><a class="dropdown-item" href="karakoram National Park.html">Karakoram National Park</a></li>
+                            <li><a class="dropdown-item" href="Margalla Hills National Park.html">Margalla Hills National Park</a></li>
+                            <li><a class="dropdown-item" href="Sheikh Badin National Park.html">Sheikh Badin National Park</a></li>
+                            <li><a class="dropdown-item" href="Lal Suhanra National Park.html">Lal Suhanra National Park</a></li>
+                            <li><a class="dropdown-item" href="Hazaraganji Chiltan National Park.html">Hazaraganji Chiltan National Park</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Animals
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                            <li><a class="dropdown-item" href="Mammals.html">Mammals</a></li>
+                            <li><a class="dropdown-item" href="Amphibians.html">Amphibians</a></li>
+                            <li><a class="dropdown-item" href="Reptiles.html">Reptiles</a></li>
+                            <li><a class="dropdown-item" href="Fish.html">Fish</a></li>
+                            <li><a class="dropdown-item" href="Birds.html">Birds</a></li>
+                            <li><a class="dropdown-item" href="Invertibrates.html">Invertebrates</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="feedback.html" style=" border-bottom: 5px solid rgb(12, 71, 12);">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        .dropdown-menu{
+            color: white;
+            /* padding: 10% 40%; */
+        background-color: rgba(240, 240, 240, 0.727);
+        }
+       .dropdown-item{
+        width: 100%;
+        padding: 3% 30px;
+        color: white;
+       } 
+       .dropdown-item:hover{
+        color: aliceblue;
+        background-color: rgba(50, 73, 50, 0.78);
+       }
+    </style>
+    <!-- NavBar End  -->
+<div class="container p-5 feedback" style="background-color: rgba(248, 248, 248, 0.367);">
+    <h2 style="color: #838c3e; font-weight: 750; font-size: 30px;" class="sy-zoo my-5">GIVE US YOUR VALUABLE FEEDBACK!</h2>
+    <div class="row">
+        <div class="col-6">
+            <label for="fname">Enter Your First Name</label>
+            <input type="text" class="form-control" name="fname" id="fname" required>
+            <span id="fnameerr"></span>
+        </div>
+        <div class="col-6">
+            <label for="lname">Enter Your Last Name</label>
+            <input type="text" class="form-control" name="lname" id="lname" required>
+            <span id="lnameerr"></span>
+        </div>
+    </div>
+
+    <label for="emailadd" class="mt-4">Enter Your Email Address</label>
+    <input type="text" name="emailadd" id="emailadd" class="form-control" required>
+    <span id="emailerr"></span>
+
+    <label for="rating" style="display: block;" class="mt-4">Give Us Rating!</label>
+    <div class="container-fluid p-0" style="display: block;">
+        <div class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">&#9733;</label>
+        </div>
+    </div>
+
+    <textarea class="form-control mt-4" name="message" id="message" style="width: 100%;" rows="5" placeholder="Give us Your Valuable Feedback"></textarea>
+    <button class="button mt-4" onclick="submitFeedback()">Send Feedback</button>
+</div>
+
+<script>
+       function validateEmail(email) {
+            const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+            return re.test(String(email).toLowerCase());
+        }
+
+        function validateName(name) {
+            const re = /^[a-zA-Z]+$/;
+            return re.test(String(name));
+        }
+
+        function submitFeedback() {
+            const fname = document.getElementById('fname').value;
+            const lname = document.getElementById('lname').value;
+            const email = document.getElementById('emailadd').value;
+            const rating = document.querySelector('input[name="rating"]:checked');
+            const message = document.getElementById('message').value;
+            let isValid = true;
+
+            if (fname === "" || !validateName(fname)) {
+                document.getElementById('fnameerr').textContent = alert("First name is required and should contain only letters.");
+                isValid = false;
+            } else {
+                document.getElementById('fnameerr').textContent = "";
+            }
+
+            if (lname === "" || !validateName(lname)) {
+                document.getElementById('lnameerr').textContent = alert("Last name is required and should contain only letters.");
+                isValid = false;
+            } else {
+                document.getElementById('lnameerr').textContent = "";
+            }
+
+            if (email === "" || !validateEmail(email)) {
+                document.getElementById('emailerr').textContent = alert("Valid email is required.");
+                isValid = false;
+            } else {
+                document.getElementById('emailerr').textContent = "";
+            }
+
+            if (!rating) {
+                alert("Rating is required.");
+                isValid = false;
+            }
+
+            if (isValid) {
+                const feedback = {
+                    fname,
+                    lname,
+                    email,
+                    rating: rating.value,
+                    message
+                };
+
+                localStorage.setItem('feedback', JSON.stringify(feedback));
+                alert("Thank you for your feedback!");
+            }
+        }
+    
+</script>
+<!-- Time & Date  -->
+   <!-- marquee start -->
+   <marquee behavior="" direction="" style="background-color: rgb(32, 71, 39); height: 50px;"><div class="row text-center" style="  color: rgb(255, 255, 255);font-size: 30px;" id="show"></div></marquee>
+   <!-- marquee end-->
+   <script>
+    var date=new Date();
+    var day=date.getDate();
+    var mon=date.getMonth();
+    var year=date.getFullYear();
+    var hrs= date.getHours();
+    var min=date.getMinutes();
+    var sec=date.getSeconds();
+    document.getElementById("show").innerHTML=day+" - "+(mon+1)+" - "+year+"- "+" "+hrs+" - "+min+" - "+sec ;
+        </script>
+       <!-- Footer Start  -->
+    <footer>
+        <div class="container-fluid" style=" width: 100%; border-top: 1px solid rgba(0, 0, 0, 0.386);">
+            <div class="row  mt-5">
+                <div class="col-lg-6 " style="position: relative;">
+
+                    <div class="row">
+                        <div class="col-6">
+                            <img style=" left: 40%; position: relative; top: 20px; height: 100px;"
+                                src="images/logo-removebg-preview.png" class="logo" alt="">
+                        </div>
+                        <div class="col-6">
+                            <div class="container" style="top: 50%; left: 0; position: relative; text-align: start;">
+                                <p class=" mt-2 mb-0" style="font-weight: 900;">Nature's Canvas</p>
+                                <p class=" m-0" style="font-weight: 700;">Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row mt-5 p-5" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="col-auto">
+                                <a href="about.html" class="text-center " style="font-weight: 700;">About</a>
+                            </div>
+                            <div class="col-auto">
+                                <a href="contact.html" class="text-center " style="font-weight: 700; ">Contact</a>
+                            </div>
+                            <div class="col-auto">
+                                <a href="TEAM.HTML" class="text-center " style="font-weight: 700;">Feedback</a>
+                            </div>
+                            <div class="col-auto">
+                                <a href="PRIVACYPOLICY.HTML" class="text-center " style="font-weight: 700;">Privacy
+                                    Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 py-4">
+                    <h2 class=" footer-text"
+                        style="color: #fefefeeb; font-weight: 800; text-shadow: 5px 15px 5px  rgba(14, 15, 14, 0.322);">
+                        Contact Us</h2>
+                    <form id="contactForm">
+                        <input type="text" class="form-control mt-2" placeholder="Enter Your Name" name="name"
+                            id="nameInput" required>
+                        <input type="email" class="form-control mt-2" placeholder="Enter Your Email" name="email"
+                            id="emailInput" required>
+                        <textarea class="form-control mt-2" cols="30" rows="4" placeholder="Enter Your Message"
+                            name="message" id="messageInput"></textarea>
+                        <button type="submit" class="button mt-2">Submit</button>
+                    </form>
+                </div>
+                <hr class="featurette-divider" style="color: rgb(255, 255, 255);">
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <p>© Pakistan Nature's Canvas - All Rights Reserved | Designed & Maintained by Mindbuild Design
+                        Studio</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End  -->
+        <script src="js/script.js"></script>
+        <script src="jquery-3.7.1.js"></script>
+        <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    
+    
+    
+    
+    
+    </body>
+    
+    </html>
